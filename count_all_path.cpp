@@ -1,4 +1,5 @@
-	int isPossible(vector<vector<int>>paths){
+//logic used is eulers cycle method
+int isPossible(vector<vector<int>>paths){
 	    int n=paths.size();
 	    int count =0;
 	    for(int i=0;i<n;i++)
