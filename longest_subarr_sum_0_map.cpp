@@ -1,3 +1,4 @@
+// we can see if there are two indices i and j (j > i) for which the prefix sum are same then the subarray from i+1 to j has sum = 0.
 class Solution {
 public:
     int findMaxLength(vector<int>& nums) {
